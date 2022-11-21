@@ -18,7 +18,7 @@ $main-color-theme-light: rgba(#000, .9);
 $main-color-theme-dark:  rgba(#fff, .9);
 
 // page background
-$background-color: #063e56;
+$background: linear-gradient(0deg, rgba(4,212,141,1) 0%, rgba(45,19,121,1) 40%);
 
 // text colors
 $text-color-theme-light-d: rgba(#fff, .95);
@@ -36,11 +36,11 @@ $text-color-l:     $text-color-theme-light-l;
 $text-background-color: rgba(#000, .05);
 
 // header and footer colors
-$header-text-color: $text-color-3;
-$header-background: $main-color-3;
+$header-text-color: #f9a957;
+$header-background: #138d85;
 
 $footer-text-color: $text-color-3;
-$footer-background: $main-color-3;
+$footer-background: #0cae89;
 
 // border and shadow colors
 $border-color:     $main-color-3;
