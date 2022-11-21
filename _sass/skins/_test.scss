@@ -18,7 +18,7 @@ $main-color-theme-light: rgba(#000, .9);
 $main-color-theme-dark:  rgba(#fff, .9);
 
 // page background
-$background-color: linear-gradient(0deg, rgba(4,212,141,1) 0%, rgba(45,19,121,1) 40%);
+$background: linear-gradient(0deg, rgba(4,212,141,1) 0%, rgba(45,19,121,1) 40%);
 
 
 // text colors
@@ -44,6 +44,7 @@ $footer-text-color: $text-color-3;
 $footer-background: #0cae89;
 
 // border and shadow colors
+$background-color: #a0a0a0;
 $border-color:     $main-color-3;
 $border-color-l:   mix(#000, $background-color, 10%);
 $decorate-color:   rgba(#000, .1);
