@@ -18,13 +18,12 @@ $main-color-theme-light: rgba(#000, .9);
 $main-color-theme-dark:  rgba(#fff, .9);
 
 // page background
-
-
+$background-color: #d2c2bc;
 
 // text colors
-$text-color-theme-light-d: rgba(rgb(255, 177, 34), .95);
-$text-color-theme-light:   rgba(rgb(255, 255, 255), .85);
-$text-color-theme-light-l: rgba(rgb(74, 5, 102), .5);
+$text-color-theme-light-d: rgba(#000, .95);
+$text-color-theme-light:   rgba(#000, .85);
+$text-color-theme-light-l: rgba(#000, .5);
 
 $text-color-theme-dark-d:  #fff;
 $text-color-theme-dark:    rgba(#fff, .95);
