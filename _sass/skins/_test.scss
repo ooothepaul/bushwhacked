@@ -23,7 +23,7 @@ $background-color: #d2c2bc;
 // text colors
 $text-color-theme-light-d: rgba(rgb(255, 177, 34), .95);
 $text-color-theme-light:   rgba(#fff, .85);
-$text-color-theme-light-l: rgba(#fff, .5);
+$text-color-theme-light-l: rgba(#fff, .95);
 
 $text-color-theme-dark-d:  #fff;
 $text-color-theme-dark:    rgba(#fff, .95);
@@ -33,7 +33,7 @@ $text-color-d:     $text-color-theme-light-d;
 $text-color:       $text-color-theme-light;
 $text-color-l:     $text-color-theme-light-l;
 
-$text-background-color: rgba(#000, .05);
+$text-background-color: rgba(#000, .85);
 
 // header and footer colors
 $header-text-color: $text-color-3;
