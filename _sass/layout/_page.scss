@@ -78,7 +78,7 @@ html,
   width: 80%;
   max-width: map-get($layout, sidebar-width);
   height: 100%;
-  background-color: $background-color;
+  background-color: #2d1379;
   @include split-line(right);
   @include transition(transform map-get($animation, duration));
   @include overflow(auto);
