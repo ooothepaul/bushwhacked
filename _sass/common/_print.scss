@@ -1,13 +1,13 @@
 @media print {
   a {
     @include plain() {
-      text-decoration: underline;
+      text-decoration: none;
     }
     @include hover() {
-      text-decoration: underline;
+      text-decoration: none;
     }
     @include active() {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 
