@@ -87,7 +87,8 @@ h1 {
 }
 
 h2 {
-  font-size: map-get($base, font-size-h2, font-weight);
+  font-weight: 400 !important;
+  font-size: map-get($base, font-size-h2,);
   color: $text-color-d;
   @include media-breakpoint-down(md) {
     font-size: map-get($base, font-size-h2-sm);
