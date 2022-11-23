@@ -68,6 +68,7 @@
     height: map-get($base, font-size-h1) * 1.6;
     margin-right: map-get($spacers, 3);
     vertical-align: middle;
+    font-weight: 700;
     @include media-breakpoint-down(md) {
       width: map-get($base, font-size-h1) * 1.2;
       height: map-get($base, font-size-h1) * 1.2;
