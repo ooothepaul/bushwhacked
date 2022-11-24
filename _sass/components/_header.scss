@@ -64,13 +64,13 @@
   @include flexbox();
   @include align-items(center);
   & > svg {
-    width: map-get($base, font-size-h1) * .80;
-    height: map-get($base, font-size-h1) * .80;
+    width: map-get($base, font-size-h1) * .60;
+    height: map-get($base, font-size-h1) * .60;
     margin-right: map-get($spacers, 3);
     vertical-align: middle;
     @include media-breakpoint-down(md) {
-      width: map-get($base, font-size-h1) * .6;
-      height: map-get($base, font-size-h1) * .6;
+      width: map-get($base, font-size-h1) * .4;
+      height: map-get($base, font-size-h1) * .4;
     }
   }
   & > a {
